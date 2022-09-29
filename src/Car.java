@@ -25,7 +25,15 @@ public class Car {
     public void NastartovatAuto(){
         jeNastartovane = true;
     }
-
+    public void carStarting(){
+        if (jeNastartovane== true){
+            System.out.println("Stop starting bro");
+        }
+        else {
+            jeNastartovane = true;
+            System.out.println("Car has started");
+        }
+    }
     @Override
     public String toString() {
         return "Car{" +

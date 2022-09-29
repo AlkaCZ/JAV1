@@ -7,6 +7,8 @@ public class Main {
         c2.NastartovatAuto();
         System.out.println(c1.toString());
         System.out.println(c2.toString());
+        c1.carStarting();
+        c2.carStarting();
 
     }
 
